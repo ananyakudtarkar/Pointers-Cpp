@@ -44,11 +44,7 @@ Algorithm:
 1. Prompt the user to enter the number of elements n for an array and read the input.
 2. Prompt the user to enter n elements and store them in an integer array arr.
 3. Declare an integer pointer ptr and initialize it to point to the last element of the array. This is done by adding n-1 to the base address of arr.
-
-Start a for loop that runs n times.
-
-Inside the loop, print the value that ptr is currently pointing to (*ptr).
-
-Decrement the pointer ptr to move it to the previous element in the array.
-
-The loop will print each element from last to first, and the program will then return.
+4. Start a for loop that runs n times.
+5. Inside the loop, print the value that ptr is currently pointing to (*ptr).
+6. Decrement the pointer ptr to move it to the previous element in the array.
+7. The loop will print each element from last to first, and the program will then return.
